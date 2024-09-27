@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <header>
+        <h1>Week 4</h1>
+    </header>
+    <main>
+        <!--learning about img tag-->
+        <h2>Image tag exmaple</h2>
+        <!--if image is decorative keep the alt tag empty alt=""-->
+        <img src="./images/coffee-shop.jpg" alt="coffee cup with coffee beens" width="500">
+        <img src="./images/coffee-shop.jpg" title="coffee cup with coffee beens" width="500">
+
+        <!--learning about a tag-->
+        <h2>Link tag exmaple</h2>
+        <p>Here is a link to visit <a href="http://www.google.com" target="_blank">Google Homepage</a>.</p>
+
+        <p><a href="./thanks.html">Thank you page</a></p>
+
+        <p><a href="#cakes">Jump to cake menu</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At pariatur eos facilis consequatur accusantium porro in explicabo nulla deleniti dolorum, voluptas nihil reiciendis id laboriosam aliquam quaerat illo autem. Eum!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, placeat. Velit beatae laborum tenetur aliquam ipsum debitis ducimus, perspiciatis voluptates porro, ipsa corrupti iure quas id vitae enim, magnam dignissimos!</p>
+        <ul id="cakes">
+            <li>Red Velvet</li>
+            <li>Tiramisu</li>
+        </ul>
+
+        <!-- Table in HTML-->
+         <h2>Simple HTML Table</h2>
+         <table border="1">
+            <caption>Student Grades</caption>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Course Name</th>
+                    <th>Grades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Smith</td>
+                    <td>Web Dev 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Web Dev 2</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+         </table>
+
+         <table border="1">
+            <caption>Student Grades</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="2"> Scores</th>
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+         </table>
+
+         <table border="1">
+            <caption>Class Schedule</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Week Day</th> 
+                    <th Colspan="2">Month</th>
+                </tr>
+                <tr>
+                    <th>Mon</th>
+                    <th>Wed</th>
+                    <th>Jan</th>
+                    <th>May</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+            
+         </table>
+
+         <table border="1">
+            <caption>Figure</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="2">1</th>
+                    <th colspan="2">2</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>c</th>
+                    <th>d</th>
+                </tr>
+                <tr>
+                    <th>a</th>
+                    <th>g</th>
+                    <th>f</th>
+                    <th>e</th>
+                </tr>
+            </tbody>
+         </table>
+
+         <!--form elementsL-->
+         <h2>Form Elements</h2>
+         <form action="./thanks.html" method="get">
+            <label for="fullname">Name</label>
+            <input id="fullname" type="text" name="fullname" placeholder="John Doe" value="Mr. ">
+
+            <label for="userEmail">Email</label>
+            <input id="userEmail" type="email" name="email" required>
+            <button type="submit">Send</button>
+        </form>
+         <form>
+            <label for="userEmail">Ege</label>
+            <input id="Ege" type="number" name="range" min="0" max="10" step="2" placeholder="0">
+
+            <label for="rock">Choose your rock</label>
+            <select id="rock" name="rock">
+                <option value="mars">Mars</option>
+                <option value="human">Earth</option>
+                <option value="venus">Venus</option>
+            </select>
+
+        <!--redio buttton-->
+        <h3>How much hours you listen to music</h3>
+        <label for="little">0-1</label>
+        <input type="radio" id="little" name="mustictime" value="0-1">
+        <label for="some">2-3</label>
+        <input type="radio" id="some" name="mustictime" value="2-3">
+        <label for="alot">4-5</label>
+        <input type="radio" id="alot" name="mustictime" value="4-5">
+        <label for="alotmore">6-8</label>
+        <input type="radio" id="alotmore" name="mustictime" value="6-8">
+
+         </form>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dignissimos commodi a unde odio consequatur, ut et reprehenderit, aliquam dolore tempore quos repudiandae suscipit iste id. Tempore ex nostrum tempora.</p>
+
+    </main>
+</body>
+</html>
