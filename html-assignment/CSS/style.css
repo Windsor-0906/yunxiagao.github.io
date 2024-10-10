@@ -24,7 +24,7 @@ header, footer{
 }
 
 /* background-color: beige */
-.My hobbies li:nth-child(odd){
+#myhobbies li:nth-child(odd){
     background-color: rgb(0, 221, 255);
 }
 
@@ -40,8 +40,8 @@ header, footer{
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    background-color: lightgrey; /* Background for links */
-    border: 2px solid #ccc; /* Border for links */
+    background-color: lightgrey; 
+    border: 2px solid #ccc;
     color: black;
     transition: background-color 0.3s ease;
   }
