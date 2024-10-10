@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Yunxia GAO</title>
 </head>
 <body>
     <!--header-->
-    <header>
+    <header class="site-title">
         <h1>Yunxia GAO</h1>
     </header>
      
+    <!--add a navigation-->
+    <nav>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">My photography</a></li>
+          <li><a href="#">My hobbies</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
     <!--add an artcle-->
    
         <h2>About Me</h2>
@@ -24,11 +36,11 @@
     <main>
          <!--display my image-->
         <h3>My photography</h3>
-         <img src="./images/YUNXIAGAO.jpg" alt="Yunxia GAO's photography" width="300">
+         <img id="my-image"  src="./images/yunxiagao.jpg" alt="Yunxia GAO's photography" width="300">
         
          <!--add my hobbies-->
          <h3>My hobbies</h3>
-         <ul id="myhobbies">
+         <ul id="myhobbies" class="myhobbies">
               <li>Badminton</li>
               <li>Photography</li>
          </ul>
