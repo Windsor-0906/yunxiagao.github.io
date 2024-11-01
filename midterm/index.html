@@ -36,9 +36,9 @@
         </article>
 
         <!--add facts section-->
-        <h2>Facts about starfish</h2>
+        <h2 class="facts-h2">Facts about starfish</h2>
         <div>
-            <ul>
+            <ul class="facts-ul">
                 <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
@@ -48,25 +48,35 @@
 
         <!--add a contact form section-->
         <h2>Contact to learn more</h2>
+
+    <div class="form">
         <form action="#Post" method="post">
+            <div class="field-inline">
             <label for="username">Your Name</label>
             <input id="name" type="text" required>
+            </div>
 
+            <div class="field-inline">
             <label for="email">Your Email</label>
             <input id="email" type="email" required>
+            </div>
 
             <label for="massage">Your massage</label>
             <textarea id="massege"></textarea>
 
-            <h3>Would you like to visit the starfish?</h3>
-            <div class="visit-the-starfish">
-                 <label><input type="radio" id="yes" name="visit">Yes</label>
-                 <label><input type="radio" id="no" name="visit">No</label>
-                <label><input type="visit" id="Maybe" name="choose">Maybe</label>
-            </div>
+            <fieldset>
+                <legend>Would you like to visit the starfish?</legend>
+                <div class="visit-the-starfish">
+                 <label>Yes<input type="radio" id="yes" name="visit"></label>
+                 <label>No<input type="radio" id="no" name="visit"></label>
+                <label>Maybe<input type="radio" id="Maybe" name="visit"></label>
+            </fieldset>
+            
 
-            <button type="submit">Send</button>
+            <button type="submit" class="form-button">Send</button>
         </form>
+    </div>
+    
     </main>
 
     <!--add a footer section-->
