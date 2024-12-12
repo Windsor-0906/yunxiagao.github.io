@@ -67,6 +67,7 @@ a{
 li{
     list-style: none;
 }
+
 /* whole page grid distribute */
 body{
     display: flex;
@@ -74,8 +75,8 @@ body{
     align-items: center;
 }
 
-/* 11111111111For mobile version web1111111111111111111111 */
 /* header */
+
 /* nav basic css */
 nav{
     width: 100%;
@@ -86,15 +87,17 @@ nav{
     align-items: center;
     flex-wrap:nowrap;
 }
+
 /* logo */
 div.logo{
     width: 95%;
     height: 200px;
     background-color: #c68d00;
-}
+}   
 img.logo{
     width: 12%;
 }
+
 /* non order list */
 nav>div{
     width: 100%;
@@ -121,7 +124,8 @@ li:nth-child(1){
 li:nth-child(1)>a{
     color: black;
 }
-/* sarch bar */
+
+/* search bar */
 form.search{
     width: 95%;
 }
@@ -137,7 +141,6 @@ form.search{
     border: 2px solid grey;
     border-radius: 5px;
 }
-
 button>i{
     font-size: 3rem;
     color: #c68d00;
@@ -148,20 +151,21 @@ button>i{
     border: 2px solid #c68d00;
     border-radius: 3px;
 }
-/* welcome section */
-.header{
+
+/* header section */
+.banner{
     color: white;
     width: 95%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.header>img{
+.banner>img{
     width: 150%;
     grid-row:1/3;
     grid-column: 1/2;
 }
-.header>.grey-back, .header>.welcome{
+.banner>.grey-back, .banner>.welcome{
     width: 130%;
     height: 75%;
     margin: 10% 0;
@@ -170,20 +174,20 @@ button>i{
     background-color: black;
     opacity: 30%;
 }
-.header>.welcome{
+.banner>.welcome{
     opacity: 100%;
     background-color: transparent;
     z-index: 1;
 }
-.header h1{
+.banner h1{
     width: 70%;
     overflow-wrap: break-word;
 }
-.header p{
+.banner p{
     width: 70%;
     overflow-wrap: break-word;
 }
-.header>div>a{
+.banner>div>a{
     font-size: 2.25rem;
     display: inline-block;
     padding: 2.5%;
@@ -198,50 +202,47 @@ main{
     margin-top: -5%;
 }
 /* about us */
-.about{
+.about-us{
     width: 100%;
     background-color: rgb(240, 224, 184);
 }
-.about>img{
+.about-us>img{
     width: 95%;
     padding: 2.5%;
 }
-.about>h2,p{
+.about-ush2,p{
     width: 95%;
     padding: 2.5%;
 }
-.about>p{
+.about-us>p{
     margin-top: -5%;
 
 }
 /* Our Services */
-.service{
+.our-service{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-.service h2{
+.our-service h2{
     width: 95%;
     padding: 0%;
     margin: 2.5%;
     margin-bottom: -2%;
 }
- 
-
-
-.service div{
+.sour-ervice div{
     width: 95%;
     margin: 2.5%;
     background-color: #c5b07c;
 }
-.service img{
+.our-service img{
     width: 100%;
 }
-.search>P{
+.our-search>P{
     margin-top: -3%;
 }
-.service a{
+.our-service a{
     font-size: 1.5rem;
     display: inline-block;
     color: white;
@@ -250,12 +251,11 @@ main{
     margin: 2.5%;
     margin-top: -3%;
 }
-.service i{
+.our-service i{
     font-size: 2rem;
 }
-
 /* Our vision */
-.vision{
+.our-vision{
     width: 100%;
     height: 100%;
     background-color: #c68d00;
@@ -265,13 +265,13 @@ main{
     background-repeat: no-repeat;
     background-attachment:local
 }
-.vision h2, .vision p{
+.our-vision h2, .vision p{
     color: white;
 }
-.vision p{ 
+.our-vision p{ 
     margin-top: -5%;
 }
-.vision a{
+.our-ision a{
     display: inline-block;
     font-size: 2.25rem;
     color: white;
@@ -284,7 +284,7 @@ main{
 
 /* Our Team */
 
-.team{
+.our-team{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -297,37 +297,37 @@ main{
     margin-left: 2.5%;
     background-color: #c5b07c;
 }
-.team img{
+.our-team img{
     width: 100%;
 }
-.team hr{
+.our-team hr{
     width: 95%;
     margin: -2% 2.5%;
     border: 1px solid #c68d00;
 }
-.team h2{
+.our-team h2{
     padding: 0;
     margin: 2.5%;
     margin-top: 5%;
     margin-bottom: -1%;
 }
 
-.team h3{
+.our-team h3{
     padding: 0;
     margin: 2.5%;
     margin-bottom: -3%;
 }
-.team h4{
+.our-team h4{
     padding: 0;
     margin: 2.5%;
 }
 
 /* Contact us */
-.contact h2,.contact h3{
+.contact-us h2,.contact h3{
     margin: -2% 0%;
 }
 
-.send form{
+.send-message form{
     width: 100%;
     margin: 0% 2.5%;
 }
@@ -349,7 +349,7 @@ input#message{
 }
 
 /* Hours of operation */
-.hours table{
+.operate-hours table{
     width: 95%;
     padding: 2%;
     margin: 2.5%;
@@ -365,7 +365,7 @@ th{
 }
 
 /* Map setting */
-.map{
+.location-map{
     width: 95%;
 }
 map{
@@ -388,9 +388,6 @@ footer a{
     color: #c68d00;
 }
 
-
-
-/* 1111   For desktop version web   111111111111111111111111 */
 /* 1111   For desktop version web   111111111111111111111111 */
 @media screen and (min-width: 1200px){
 
@@ -460,7 +457,7 @@ li:nth-child(1){
 li:nth-child(1)>a{
     color: black;
 }
-/* sarch bar */
+/* search bar */
 form.search{
     width: 30%;
     margin-right: -6%;
@@ -489,7 +486,7 @@ button>i{
     border-radius: 3px;
 }
 /* welcome section */
-.header{
+.banner{
     color: white;
     width: 100%;
     height: 890px;
@@ -498,14 +495,14 @@ button>i{
     grid-template-rows: 1fr;
     background-color:rgb(240, 224, 184);
 }
-.header>img{
+.banner>img{
     width: 150%;
     height: 50%;
     object-fit: cover;
     grid-row:1/2;
     grid-column: 1/2;
 }
-.header>.grey-back, .header>.welcome{
+.banner>.grey-back, .banner>.welcome{
     width: 90%;
     height: 40%;
     margin: 5% 10%;
@@ -514,22 +511,22 @@ button>i{
     background-color: black;
     opacity: 50%;
 }
-.header>.welcome{
+.banner>.welcome{
     opacity: 100%;
     background-color: transparent;
     z-index: 1;
 }
-.header h1{
+.banner h1{
     width: 70%;
     font-size: 5rem;
     overflow-wrap: break-word;
 }
-.header p{
+.banner p{
     width: 90%;
     overflow-wrap: break-word;
     margin-top: -5%;
 }
-.header>div>a{
+.banner>div>a{
     font-size: 2.25rem;
     display: inline-block;
     padding: 2.5%;
@@ -546,20 +543,20 @@ main{
     margin-top: 0;
 }
 /* about us */
-.about{
+.about-us{
     width: 100%;
     background-color: rgb(240, 224, 184);
     padding: 0% 10%;
     display: flex;
     flex-direction: row;
 }
-.about>img{
+.about-us>img{
     width: 42%;
     /* height: 300px; */
     object-fit:contain;
     padding: 1%;
 }
-.about h2, .about p{
+.about-us h2, .about p{
     width: 70%;
     padding: 0%;
     margin: 0%;
@@ -568,7 +565,7 @@ main{
 
 
 /* Our Services */
-.service{
+.our-service{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -576,7 +573,7 @@ main{
     padding: 1% 10%;
     /* gap: 10px; */
 }
-.service h2{
+.our-service h2{
     width: 90%;
     padding: 0%;
     margin: 2.5%;
@@ -584,19 +581,19 @@ main{
 }
  
 
-.service div{
+.our-service div{
     width: 45%;
     margin: 1%;
     background-color: #c5b07c;
 }
-.service .video, .service .web, .service .print{
+.our-service .video, .our-service .web, .our-ervice .print{
     margin: 0%;
     width: 31% 
 }
 
 
 /* Our vision */
-.vision{
+.our-vision{
     width: 100%;
     height: 100%;
     background-color: #c68d00;
@@ -606,15 +603,15 @@ main{
     background-repeat: no-repeat;
     background-attachment:local
 }
-.vision h2, .vision p{
+.our-vision h2, .our-vision p{
     color: white;
     width: 80%;
     margin-left: 7.5%;
 }
-.vision p{ 
+.our-vision p{ 
     margin-top: -5%;
 }
-.vision a{
+.our-vision a{
     display: inline-block;
     font-size: 2.25rem;
     color: white;
@@ -627,7 +624,7 @@ main{
 
 /* Our Team */
 
-.team{
+.our-team{
     width: 90%;
     margin-left: 9%;
     display: flex;
@@ -642,7 +639,7 @@ main{
     margin-left: 1.5%;
     background-color: #c5b07c;
 }
-.team img{
+.our-team img{
     width: 100%;
 }
 .bob{
@@ -654,16 +651,16 @@ main{
 }
 
 /* Contact us */
-.contact{
+.contact-us{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.contact h2,.contact h3{
+.contact-us h2,.contact h3{
     margin: -2% 0%;
 }
 
-.send form{
+.send-message form{
     width: 100%;
     margin: 0% 2.5%;
 }
@@ -685,23 +682,23 @@ input#message{
 }
 
 /* Hours of operation */
-.contact{
+.contact-us{
     width: 95%;
     margin-left: 7.5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.contact h3{
+.contact-us h3{
     width:40%
 }
-.send{
+.send-message{
     order: 1;
     width: 42%;
     margin: 1.5%;
     margin-top: 0%;
 }
-.hours{
+.operate-hours{
     width: 88%;
     order: 3;
 }
@@ -712,7 +709,7 @@ th,td{
 th{
     background-color: #c5b07c;
 }
-.hours table{
+.operate-hours table{
     width: 100%;
     padding: 2%;
     margin: 2.5%;
@@ -720,7 +717,7 @@ th{
     margin-top: -3%;
 }
 /* Map setting */
-.map{
+.location-map{
     width: 44.5%;
     order: 2;
 }
@@ -741,7 +738,4 @@ footer{
 }
 footer a{
     color: #c68d00;
-}
-
-
 }
