@@ -7,15 +7,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <title>final project</title>
+    <title>Final-project</title>
   </head>
 
   <body>
+<!-- add the header -->
     <header>
-      <section class="nav-search">
-        <img src="images/logo.png" alt="" />
-        <!-- this is a comment -->
-        <nav>
+      <nav id="nav-search">
+
+        <div class="logo">
+        <img src="images/logo.png" alt="logo" class="=logo"/>
+        </div>
+
+        <div>
           <ul>
             <li><a href="#home">Home</a ></li>
             <li><a href="#about">About Us</a ></li>
@@ -23,167 +27,179 @@
             <li><a href="#team">Team</a ></li>
             <li><a href="#contact">Contact</a ></li>
           </ul>
-        </nav>
+        </div>
     
         <!-- search-box -->
-        <div class="search-box">
-          <input type="text" name="search" placeholder="search" />
+        <div>
+        <form action="#" method="get" class="search">
+          <input type="text" name="search" placeholder="search" value="search">
           <button type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-      </section>
+      </nav>
 
-      <!-- banner -->
-      <section>
-        <div class="top-banner">
-          <img src="images/main-banner.jpg" alt="" />
+      <!-- add a banner -->
+      <section class="banner">
+          <img src="images/main-banner.jpg" alt="main-banner">
+          <div class="grey-back"></div>
+          <div class="welcome">
           <h1>Welcome to Three Star media</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, similique esse fugiat
             accusamus tempora soluta magni omnis. Aliquid, provident.
           </p >
-          <a href="#connect">Connect with us</a >
-        </div>
+          <a href="#connect">Connect with us &nbsp;<i class="fa-solid fa-caret-up fa-rotate-90" style="color: #000000;"></i></a><br>
       </section>
     </header>
-
+    
+<!-- add main section -->
     <main>
-      <!-- about us begin -->
-      <section class="about-us">
-        <img src="images/about-us.jpg" alt="" />
-        <h2>About Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
-          veniam voluptates dolore reprehenderit deleniti neque ipsum placeat
-          dolorum sapiente omnis corrupti nulla velit suscipit numquam dolorem
-          laborum officia totam id?
-        </p >
-      </section>
-
-      <!-- our services begin -->
-      <section class="our-services">
-        <h2>Our Services</h2>
+      <!-- about us -->
+      <section class="about-us" id="about-us">
+        <img src="images/about-us.jpg" alt="about-us">
 
         <div>
-          <img src="images/digital.jpg" alt="" />
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+            veniam voluptates dolore reprehenderit deleniti neque ipsum placeat
+            dolorum sapiente omnis corrupti nulla velit suscipit numquam dolorem
+          laborum officia totam id?
+           </p >
+        </div>
+      </section>
+
+      <!-- our services -->
+      <section class="our-services" id="service">
+        <h2>Our Services</h2>
+        <!-- add digital transformation -->
+        <div class="transformation">
+          <img src="images/digital.jpg" alt="digital transformation">
           <h3>Digital Transformation</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
             nobis, ut dolorem officia dignissimos sed officiis sequi.
           </p >
-          <a href="#digital">Digital Plans</a >
+          <a href="#digital">Digital Transformation &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
         </div>
 
-        <div>
-          <img src="images/marketing.jpg" alt="" />
+        <!-- marketing -->
+        <div class="marketing">
+          <img src="images/marketing.jpg" alt="Marketing">
           <h3>Marketing</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam
             quos quo similique labore quis nesciunt explicabo dolores
             laudantium?
           </p >
-          <a href="#marketing">Marketing Plans</a >
+          <a href="#marketing">Marketing &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
         </div>
 
-        <div>
-          <img src="images/video.jpg" alt="" />
+        <!-- video production -->
+        <div class="video">
+          <img src="images/video.jpg" alt="video production">
           <h3>Vidio Production</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam
             quos quo similique labore quis nesciunt explicabo dolores
             laudantium?
           </p >
-          <a href="#video">Video Plans</a >
+          <a href="#video">Video Production &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
         </div>
 
-        <div>
-          <img src="images/web.jpg" alt="" />
+        <!-- web development -->
+        <div class="webdevelopment">
+          <img src="images/web.jpg" alt="webdevelopment">
           <h3>Web Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam
             quos quo similique labore quis nesciunt explicabo dolores
             laudantium?
           </p >
-          <a href="#web">Web Plans</a >
+          <a href="#web">Web Development &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
         </div>
 
-        <div>
-          <img src="images/print.jpg" alt="" />
+        <!-- the print -->
+         <div class="print">
+          <img src="images/print.jpg" alt="print">
           <h3>Print</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nam
             quos quo similique labore quis nesciunt explicabo dolores
             laudantium?
           </p >
-          <a href="#print">Print Plans</a >
+          <a href="#print">Print Plans &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
         </div>
       </section>
 
-      <!-- our vision begin -->
+      <!-- our vision -->
       <section class="our-vision">
         <h2>Our Vision</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis
           tempore sequi quas quae consequatur doloremque corrupti vel!
         </p >
-        <a href="#learn">Learn More</a >
+        <a href="#learn">Our Vision &nbsp; <i class="fa-solid fa-caret-up fa-rotate-90" style="color: #ffffff;"></i></a>
       </section>
 
-      <!-- our team begin -->
-      <section class="our-team">
+      <!-- our team -->
+      <section class="our-team" id="team">
         <h2>Our Team</h2>
 
-        <div class="team-member john">
-          <img src="images/john.jpg" alt="" />
-          <h3>John Doe</h3>
-          <h4>CEO and Co-owner</h4>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            reiciendis ipsam magnam nesciunt, quisquam aliquam blanditiis
-            numquam tempore perspiciatis. Explicabo consequuntur quas maiores,
-            deleniti fuga sunt vitae dolorem commodi iure.
-          </p >
-        </div>
+         <!-- add John Doe -->
+          <div class="john">
+            <img src="images/john.jpg" alt="John Doe"><br>
+            <div>
+              <h3>John Doe</h3>
+              <h4>CEO and Co-owner</h4>
+              <hr>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis ipsam magnam nesciunt, quisquam aliquam blanditiis
+                numquam tempore perspiciatis. Explicabo consequuntur quas maiores,
+                deleniti fuga sunt vitae dolorem commodi iure.
+               </p >
+             </div>
+          </div>
 
-        <div class="team-member bob">
-          <img src="images/bob.jpg" alt="" />
-          <h3>Bob Rite</h3>
-          <h4>CFO and Co-owner</h4>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            reiciendis ipsam magnam nesciunt, quisquam aliquam blanditiis
-            numquam tempore perspiciatis. Explicabo consequuntur quas maiores,
-            deleniti fuga sunt vitae dolorem commodi iure.
-          </p >
-        </div>
+         <!-- add Bob Rite -->
+          <div class="bob">
+            <img src="images/bob.jpg" alt="Bob Rite"><br>
+            </div>
+              <h3>Bob Rite</h3>
+              <h4>CFO and Co-owner</h4>
+              <hr>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                reiciendis ipsam magnam nesciunt, quisquam aliquam blanditiis
+                numquam tempore perspiciatis. Explicabo consequuntur quas maiores,
+                deleniti fuga sunt vitae dolorem commodi iure.
+              </p >
+            </div> 
+          </div>
       </section>
 
-      <!-- contact us begin-->
-      <section class="contact-us">
+      <!-- contact us -->
+      <section class="contact-us" id="contact">
         <h2>Contact Us</h2>
 
-        <!-- send message -->
+        <!-- the contact form -->
         <div class="send-message">
-          <h3>Send us a message</h3>
-          <form action="#" method="post">
-            <label for="username">Full Name</label>
-            <input type="text" id="username" name="username" required />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Send</button>
-          </form>
+            <h3>Send us a message</h3>
+            <form action="#" method="get">
+              <label for="FullName">Full Name</label><br>
+              <input type="text" name="Full Name" id="FullName"><br>
+              <label for="Email">Email</label><br>
+              <input type="text" name="Email" id="Email"><br>
+              <label for="message">Message</label><br>
+              <input type="text" name="Message" id="message" rows="5" cols="30"><br>
+              <input type="submit" value="send" class="sub">
+            </form>
         </div>
 
-        <!-- operate time -->
-        <div class="operate-time">
-          <h3>Hour of operation</h3>
+        <!-- hours of operation -->
+        <div class="operate-hours">
+          <h3>Hours of operation</h3>
           <table>
             <tr>
               <th>Days</th>
@@ -199,28 +215,24 @@
             </tr>
           </table>
         </div>
+
         <!-- map of location -->
         <div class="location-map">
           <h3>Location</h3>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.913994665036!2d-75.76068110563529!3d45.34968032430105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1732484770623!5m2!1szh-CN!2sca"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+           <map name="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.948845794233!2d-75.7579494881526!3d45.34984487095171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732483854962!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </map>
         </div>
       </section>
     </main>
 
+<!-- add a footer -->
     <footer>
-      <p>Copyright Three star Media, 2020</p >
-      <div class="image-link">
-        <p>All images are taken from</p >
-        <a href="#">Unsplash</a >
-      </div>
+       <!-- add the copyright-->
+       <div>
+        &copy; Copyright Three Star Media, 2020 <br>
+        All images are taken from <a href="#home">unsplash</a>
+        </div>
     </footer>
   </body>
 </html>
